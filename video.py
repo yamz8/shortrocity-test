@@ -5,7 +5,7 @@ import cv2
 import os
 
 import text
-#TODO: add if folders of images and audio same nymber
+#TODO: add if folders of images and audio same nyumner
 
 def get_audio_duration(audio_file):
     return len(AudioSegment.from_file(audio_file))
